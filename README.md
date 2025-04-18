@@ -63,8 +63,30 @@ Start here: [docs/phase-0-design-thinking/README.md](./docs/phase-0-design-think
 ---
 
 🗂️ What’s All This Stuff in the Repo?
-If you’re new to GitHub or React projects, you might be wondering what all these folders and files are.
+If you’re new to GitHub or React projects, you might be wondering what all these folders and files are and they might look overwhelming.
 
-Don’t worry — we’ll introduce each one as we go. Every part of this project will make sense when you need it, so there’s no need to understand everything upfront.
+Don’t worry — here's what each does and when you'll use it during the tutorial:
 
-You'll learn what src/, public/, docs/, and other folders do during each phase. For now, just focus on the current step.
+| Folder | What It's For | Used In Phase |
+|--------|---------------|----------------|
+| `design/` | Your visual design work: Figma files, exported PNGs, etc. | 🟢 Phase 0 |
+| `docs/` | Step-by-step instructions for each phase | 🟢 All phases |
+| `public/` | Static files like `favicon.ico` or SEO-related files | ⚙️ Phase 3–4 |
+| `src/` | Your React codebase (this is where the magic happens) | ⚙️ Phase 1 onward |
+| ├─ `assets/` | Images, icons, and other visuals used in your site | 🧩 Phase 2–3 |
+| ├─ `components/` | Reusable building blocks (like Buttons, Cards) | 🧩 Phase 2 |
+| └─ `pages/` | Each page of your site (Home, About, Projects, Contact) | ⚙️ Phase 1–3 |
+| `scripts/` | Optional helper scripts for deploying or automation | 🚀 Phase 4+ (optional) |
+| `.gitignore` | Tells Git to ignore system or build files | ⚙️ Phase 1 |
+| `package.json` | Stores project dependencies and app info | ⚙️ Phase 1 |
+| `vite.config.js` | Configuration for the Vite dev server | ⚙️ Phase 1 |
+| `tailwind.config.js` | Custom theme for Tailwind (colors, spacing, fonts) | 🧩 Phase 2 |
+| `postcss.config.js` | Supports Tailwind's CSS processing | ⚙️ Phase 1 |
+| `README.md` | This guide you're reading now! | All phases |
+| `LICENSE` | (Optional) Open-source license file | Default from GitHub |
+
+---
+
+> 💡 _You’ll learn about each folder naturally as you progress. We don’t expect you to understand everything from the start._
+
+We designed this tutorial so that each piece gets introduced only when it’s needed. So just keep moving through the phases—we got you!
