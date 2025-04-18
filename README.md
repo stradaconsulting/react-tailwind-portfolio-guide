@@ -1,4 +1,4 @@
-# 🎨 React + Tailwind Portfolio Builder (Beginner-Friendly)
+# 🎨 Beginner-Friendly React + Tailwind Portfolio Builder 
 
 > Build and launch your own developer portfolio—no coding background required.
 
