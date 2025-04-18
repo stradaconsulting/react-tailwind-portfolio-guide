@@ -60,6 +60,8 @@ You'll start with visual design, move into hands-on coding, and finish by publis
 
 Start here: [docs/phase-0-design-thinking/README.md](./docs/phase-0-design-thinking/README.md)
 
+---
+
 🗂️ What’s All This Stuff in the Repo?
 If you’re new to GitHub or React projects, you might be wondering what all these folders and files are.
 
